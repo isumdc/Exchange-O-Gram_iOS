@@ -45,11 +45,13 @@ class ImageShuffleViewController: UIViewController {
         self.becomeFirstResponder()
     }
     
+    //For shake gesture
     override func viewWillDisappear(animated: Bool) {
         self.resignFirstResponder()
         super.viewWillDisappear(animated)
     }
     
+    //For shake gesture
     override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
         if (motion == UIEventSubtype.MotionShake) {
             switchImage()
@@ -85,6 +87,8 @@ class ImageShuffleViewController: UIViewController {
                         self.images.append(img)
                     }
                 }
+                
+                //Set a picture once everything loaded
                 self.switchImage()
             }
         }

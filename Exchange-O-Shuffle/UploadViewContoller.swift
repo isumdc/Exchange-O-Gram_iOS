@@ -37,6 +37,7 @@ class UploadViewContoller: UIViewController, UITextFieldDelegate, UIImagePickerC
 
     }
     
+    //For returning to main view controller
     func closeViewController() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }

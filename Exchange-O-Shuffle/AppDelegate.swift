@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
+
+https://github.com/jstimes/Exchange-O-Shuffle.git
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
