@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Exchange-O-Shuffle
 //
-//  Created by jacob stimes  & ian mcdowell  on 1/18/16.
+//  Created by jacob stimes & ian mcdowell on 1/18/16.
 //  Copyright © 2016 stimes.enterprises. All rights reserved.
 //
 
@@ -10,8 +10,6 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-
-https://github.com/jstimes/Exchange-O-Shuffle.git
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
