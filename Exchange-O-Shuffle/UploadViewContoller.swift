@@ -38,6 +38,7 @@ class UploadViewContoller: UIViewController, UITextFieldDelegate, UIImagePickerC
     }
     
     //For returning to main view controller
+    // Even if a photo is uploaded, the main view controller won't reload new posts...
     func closeViewController() {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
